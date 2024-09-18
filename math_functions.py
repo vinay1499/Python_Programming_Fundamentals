@@ -1,5 +1,3 @@
-# math
-
 import math
 import random
 
@@ -14,7 +12,6 @@ sum()
 round()
 
 math module
-
 random module
 randint
 randrange
@@ -23,30 +20,41 @@ randrange
 '''
 
 
-# x = abs(-9)
-# x = max(1,5)
-# x = max('a', 'b')
-# x = min(1 ,2)
-# x = sum([1, 2])
-# x = round(3.45)
-#x = round(3.45, 1)
+abs_val = abs(-9)
+print(abs_val)
 
-# x = math.cos(0)
+max_number= max(1,5)
+print(max_number)
 
-x = math.cos(math.pi)
+max_str = max('a', 'b')
+pritn(max_str)
 
-print(x)
+min_number = min(1 ,2)
+print(min_number)
 
-# random_number = random.randint(1, 10)
+numbers_sum = sum([1, 2])
+print(numbers_sum)
 
-random_number = random.randrange(1, 10, 2)
+rounded_number = round(3.45)
 
-print(random_number)
+rounded_number_one_decimal = round(3.45, 1)
+print(rounded_number_one_decimal)
+
+cosine_val = math.cos(0)
+print(cosine_val)
+
+cosine_pi_val = math.cos(math.pi)
+print(cosine_pi_val)
+
+random_number_1 = random.randint(1, 10)
+print(random_number_1)
+
+random_number_2 = random.randrange(1, 10, 2)
+print(random_number_2)
+
 
 lst = ["he", "hi", "ho", "hello"]
-
 random_choice = random.choice(lst)
-
 print(random_choice)
 
 
