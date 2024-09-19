@@ -1,5 +1,3 @@
-# misc python syntax
-
 '''
 Comprehension - initializing a data type,
 
@@ -11,12 +9,9 @@ docstrings - a docstring is a multi line string or comment. It decribes or docum
 
 help() function - take a function or class and helps to read the docstring.
 
-
-
-
 '''
 
-#comprehension
+# list comprehension
 
 lst = []
 
@@ -55,15 +50,3 @@ print(x, y)
 a, b = (1, 2)
 print(a, b)
 
-
-# docstring
-
-def foo():
-    '''
-    this is a foo function.
-    '''
-    pass
-help(1)
-
-help(foo)
-help(1)
